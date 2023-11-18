@@ -73,7 +73,6 @@ public class HomePage_Panel extends javax.swing.JFrame {
             }
         });
         jTable1.setRowHeight(30);
-        jTable1.setShowGrid(true);
         jScrollPane1.setViewportView(jTable1);
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
@@ -96,7 +95,6 @@ public class HomePage_Panel extends javax.swing.JFrame {
             }
         });
         jTable2.setRowHeight(30);
-        jTable2.setShowGrid(true);
         jScrollPane2.setViewportView(jTable2);
 
         jButton1.setText("Input Data Mobil");
@@ -121,7 +119,7 @@ public class HomePage_Panel extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 816, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 816, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 133, Short.MAX_VALUE))))
+                        .addGap(0, 130, Short.MAX_VALUE))))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
@@ -154,7 +152,7 @@ public class HomePage_Panel extends javax.swing.JFrame {
                     .addComponent(jButton4))
                 .addGap(34, 34, 34)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(135, Short.MAX_VALUE))
+                .addContainerGap(129, Short.MAX_VALUE))
         );
 
         pack();
